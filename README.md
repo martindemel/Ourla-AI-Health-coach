@@ -60,3 +60,64 @@ Experience the power of personalized wellness tracking and take control of your 
 - **Your Sleep Data Archive**  
   ![Sleep Archive](Images/data_archive.png)
 
+
+## Installation and Setup
+
+### 1. Clone the Repository
+Open your terminal and run the following commands:
+
+```bash
+git clone https://github.com/martindemel/Wellness-AI-Health-Coach.git
+cd Wellness-AI-Health-Coach
+```
+
+### 2. Create and Activate a Virtual Environment
+It’s recommended to run the application in an isolated environment.
+
+MacOS
+```
+python3 -m venv myenv
+source myenv/bin/activate
+```
+
+### 3. Install Dependencies
+Install the required packages using the provided requirements.txt file:
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Set Up Environment Variables
+Create a file named `.env` in the project root directory with the following content:
+
+```env
+OURA_PAT=your_oura_api_token
+OPENAI_API_KEY=your_openai_api_key
+```
+Replace your_oura_api_token and your_openai_api_key with your actual credentials.
+
+### 5. Run the Application
+The main application file is named Wellness_AI_Health_Coach.py. Start the app with Streamlit by running:
+```
+streamlit run Wellness_AI_Health_Coach.py
+```
+
+## How It Works
+
+	•	Data Collection:
+The app fetches sleep, readiness, activity, and SpO₂ data from your Oura Ring via the Oura API and stores it locally using SQLite.
+	•	Daily Check-In:
+You provide subjective ratings for your sleep readiness, mood, energy, stress, and physical comfort, which are combined with objective data to compute overall wellness scores.
+	•	Personalized Insights:
+An AI sleep coach (powered by OpenAI GPT‑4) generates personalized recommendations and insights based on your data.
+	•	Interactive Chat:
+Ask questions about your sleep data and receive immediate, data-driven responses from the AI Sleep Coach.
+	•	Visualizations:
+Interactive charts and graphs help you explore trends and patterns in your wellness data over time.
+
+
+
+
+
+
+
