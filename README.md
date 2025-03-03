@@ -1,6 +1,28 @@
-# Wellness Dashboard
+# Wellness AI Health Coach
 
-**Wellness Dashboard** is an AI-powered sleep and wellness tracking application that combines objective data from your Oura Ring with your personal daily check-ins. The app provides comprehensive insights and personalized recommendations using interactive visualizations and a chat interface powered by GPT‑4.
+**Wellness AI Health Coach** is an innovative, AI-driven sleep and wellness tracking application that seamlessly integrates objective data from your Oura Ring with your personal daily check-ins. By merging real-time biometric information with your subjective self-assessments, the app provides a holistic view of your sleep patterns, recovery status, and overall well-being.
+
+## Key Features
+
+- **Comprehensive Data Integration:**  
+  Combines objective measurements from your Oura Ring—such as sleep quality, activity levels, and physiological metrics—with daily user inputs like sleep readiness, mood, energy, stress, and physical comfort.
+
+- **Personalized Insights:**  
+  Analyzes both objective and subjective data to deliver actionable insights and tailored recommendations that help you optimize your sleep and overall wellness.
+
+- **Interactive Visualizations:**  
+  Presents your data through modern, interactive charts and graphs that clearly illustrate trends and patterns over time, making it easy to understand your progress at a glance.
+
+- **Conversational AI Support:**  
+  Features an integrated chat interface powered by GPT‑4 that allows you to ask questions about your sleep data and receive immediate, data-driven advice—much like consulting a personal health coach.
+
+## Overview
+
+With **Wellness AI Health Coach**, complex health metrics are transformed into simple, understandable insights. The app not only monitors your sleep and wellness data but also tracks trends and changes over time, enabling you to identify areas for improvement. Whether you're aiming to enhance your sleep quality or manage daily stress more effectively, the app offers a comprehensive platform to help you achieve a healthier, more balanced lifestyle.
+
+Experience the power of personalized wellness tracking and take control of your health with **Wellness AI Health Coach**.
+
+---
 
 ![Wellness Dashboard Banner](Images/banner.png)
 
@@ -23,20 +45,18 @@
 
 ## Screenshots
 
-Replace the image paths with your actual screenshots:
-
-- **Daily Check-In:**  
+- **Your Daily Sleep & Wellness Check-In**  
   ![Daily Check-In](Images/Check-in.png)
 
-- **Overview & Insights:**  
+- **Your AI-Powered Overview & Insights**  
   ![Overview & Insights](Images/AI_Insights.png)
 
-- **Chat Interface:**  
+- **Chat with Your AI Sleep Coach**  
   ![Chat Interface](Images/AI_Coach.png)
 
-- **Data Visualizations:**  
+- **Data-Driven Insights**  
   ![Data Visualizations](Images/data_insights.png)
 
-- **Sleep Archive:**  
+- **Your Sleep Data Archive**  
   ![Sleep Archive](Images/data_archive.png)
 
