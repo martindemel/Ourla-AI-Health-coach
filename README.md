@@ -98,26 +98,25 @@ Replace your_oura_api_token and your_openai_api_key with your actual credentials
 
 ### 5. Run the Application
 The main application file is named Wellness_AI_Health_Coach.py. Start the app with Streamlit by running:
+
 ```
 streamlit run Wellness_AI_Health_Coach.py
+
 ```
 
 ## How It Works
 
-	•	Data Collection:
+•Data Collection:
 The app fetches sleep, readiness, activity, and SpO₂ data from your Oura Ring via the Oura API and stores it locally using SQLite.
-	•	Daily Check-In:
+
+•Daily Check-In:				
 You provide subjective ratings for your sleep readiness, mood, energy, stress, and physical comfort, which are combined with objective data to compute overall wellness scores.
-	•	Personalized Insights:
+
+•Personalized Insights:
 An AI sleep coach (powered by OpenAI GPT‑4) generates personalized recommendations and insights based on your data.
-	•	Interactive Chat:
+
+•Interactive Chat:
 Ask questions about your sleep data and receive immediate, data-driven responses from the AI Sleep Coach.
-	•	Visualizations:
+
+•Visualizations:
 Interactive charts and graphs help you explore trends and patterns in your wellness data over time.
-
-
-
-
-
-
-
