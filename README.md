@@ -2,7 +2,7 @@
 
 **Wellness Dashboard** is an AI-powered sleep and wellness tracking application that combines objective data from your Oura Ring with your personal daily check-ins. The app provides comprehensive insights and personalized recommendations using interactive visualizations and a chat interface powered by GPT‑4.
 
-![Wellness Dashboard Banner](path/to/your/banner.png)
+![Wellness Dashboard Banner](Images/banner.png)
 
 ## Features
 
@@ -26,17 +26,17 @@
 Replace the image paths with your actual screenshots:
 
 - **Daily Check-In:**  
-  ![Daily Check-In](path/to/daily_checkin.png)
+  ![Daily Check-In](Images/Check-in.png)
 
 - **Overview & Insights:**  
-  ![Overview & Insights](path/to/overview_insights.png)
+  ![Overview & Insights](Images/AI_Insights.png)
 
 - **Chat Interface:**  
-  ![Chat Interface](path/to/chat_interface.png)
+  ![Chat Interface](Images/AI_Coach.png)
 
 - **Data Visualizations:**  
-  ![Data Visualizations](path/to/data_visuals.png)
+  ![Data Visualizations](Images/data_insights.png)
 
 - **Sleep Archive:**  
-  ![Sleep Archive](path/to/sleep_archive.png)
+  ![Sleep Archive](Images/data_archive.png)
 
